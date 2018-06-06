@@ -14,7 +14,7 @@ function myFunction(){
     var total = +amount + tax;
     
     if(state.toLowerCase()==="wi"||state.toLowerCase()==="wisconsin"){
-        ocument.getElementById("main").innerHTML = "The subtotal is $" + amount + "<br/>The tax is $" + tax + "<br/> The total is $" + total;
+        document.getElementById("main").innerHTML = "The subtotal is $" + amount + "<br/>The tax is $" + tax + "<br/> The total is $" + total;
     }
     if(state.toLowerCase()==="mn"||state.toLowerCase()==="minnesota"){
         document.getElementById("main").innerHTML = "The subtotal is $" + amount;

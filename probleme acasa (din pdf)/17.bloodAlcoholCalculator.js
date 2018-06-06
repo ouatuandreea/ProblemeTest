@@ -15,6 +15,7 @@ function myFunction(){
     do{
         alcoholPerDrink = prompt("How many ounces of alcohol do the consumed drinks have?","0.6")
     } while(isNaN(alcoholPerDrink));
+    var hoursSinceLastDrink
     do{
         hoursSinceLastDrink = prompt("How many hours since your last drink?","2");
     } while(isNaN(hoursSinceLastDrink));
