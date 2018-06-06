@@ -1,0 +1,21 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Multiplcation Table</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <script src="31.heartRate.js"></script>
+	</head>
+
+	<body onload="updateSlider()">
+        Resting pulse:<input id="restingPulse" type="number">
+        <br>
+        Age:<input id="age" type="number">
+        <br>
+        Intensity: 55%
+        <input id="intensity" type="range" min="55" max="95" step="5" oninput ="myFunction()" > 95%
+        <input id="sliderValue" readonly="true">
+        <p id="main"></p>
+	</body>
+</html>

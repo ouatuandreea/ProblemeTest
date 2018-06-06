@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisconsin Tax Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="14.tax-calculator.js"></script>
+</head>
+<body>
+<div id="contents">
+    <h3>Wisconsin Tax Calculator</h3>
+    <h3>You don’t always need a complex control structure to solve
+        simple problems. Sometimes a program requires an extra
+        step in one case, but in all other cases there’s nothing to do.
+        Write a simple program to compute the tax on an order
+        amount. The program should prompt for the order amount
+        and the state. If the state is “WI,” then the order must be
+        charged 5.5% tax. The program should display the subtotal,
+        tax, and total for Wisconsin residents but display just the
+        total for non-residents.</h3>
+    <div id="inputs">
+
+        <label>Order amount: <input type="text" id="amount"></label>
+        <br>
+        <label>Your state: <input type="text" id="state"></label>
+        <br>
+        <input id="calculate" type="button" value="Calculate">
+
+    </div>
+
+    <div id="results"></div>
+
+</div>
+
+
+</body>
+</html>

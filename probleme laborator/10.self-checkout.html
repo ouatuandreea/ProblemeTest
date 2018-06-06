@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-checkout</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="10.self-checkout.js"></script>
+    <link href="10.self-checkout.css" rel="stylesheet">
+</head>
+<body>
+<div id="contents">
+    <h3>Self-checkout</h3>
+    <h3>Working with multiple inputs and currency can introduce
+        some tricky precision issues.
+        Create a simple self-checkout system. Prompt for the prices
+        and quantities of three items. Calculate the subtotal of the
+        items. Then calculate the tax using a tax rate of 5.5%. Print
+        out the line items with the quantity and total, and then print
+        out the subtotal, tax amount, and total.</h3>
+    <div id="inputs">
+        <p>Self-checkout</p>
+        <label>Name: <input type="text" id="name"></label>
+        <br>
+        <label>Price: <input type="text" id="price"></label>
+        <br>
+        <label>Quantity: <input type="text" id="quantity"></label>
+        <br>
+
+        <div id="add-to-list">
+            <input id="additem" type="button" value="Add to list" >
+        </div>
+        <br>
+
+        <div id="itemlist">
+            <table id="items">
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </table>
+        </div>
+
+        <br>
+        <div id="totals">
+            <div>
+                <p>TVA included?</p>
+                <label>Yes: <input type="radio" name="tax" value="yes"></label>
+                <label>No: <input type="radio" name="tax" value="no"></label>
+            </div>
+            <br>
+            <input id="calculate" type="button" value="Calculate Total" >
+        </div>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

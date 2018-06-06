@@ -1,0 +1,13 @@
+li{
+    color:white;
+    background-color: darkblue;
+    max-width: 300px;
+    border-top: 2px solid white;
+}
+
+li>button{
+    max-height: 20px;
+    background-color: red;
+    float:right;
+}
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Converter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="18.temperature-converter.js"></script>
+</head>
+<body>
+<div id="contents">
+    <h3>Temperature Converter</h3>
+    <h3>You’ll often need to determine which part of a program is
+        run based on user input or other events.
+        Create a program that converts temperatures from Fahren-
+        heit to Celsius or from Celsius to Fahrenheit. Prompt for the
+        starting temperature. The program should prompt for the
+        type of conversion and then perform the conversion.
+        The formulas are
+        C = (F − 32) × 5 / 9
+        and
+        F = (C × 9 / 5) + 32</h3>
+        <div id="inputs">
+
+        <label>Temperature: <input type="text" id="temp" maxlength="5"></label>
+            <select id="scale-from">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+            to
+            <select id="scale-to">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+        <br>
+        <input id="convert" type="button" value="Convert">
+
+    </div>
+
+    <div id="results"></div>
+
+</div>
+
+
+</body>
+</html>
